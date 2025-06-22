@@ -6,7 +6,8 @@ Multi-Class Text Classification of Udemy Courses using Spark NLP & MLlib
 
 **Author**
 
-Jude Gbenimako
+**Jude Gbenimako**
+
 NOVA Information Management School
 Master’s Degree Program in Data Science and Advanced Analytics (Business Analytics)
 June 2025
