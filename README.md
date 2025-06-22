@@ -1,19 +1,23 @@
 # Multi-Class-Text-Classification-of-Udemy-Courses-using-Spark-NLP-MLlib
 
 **Project Title**
+
 Multi-Class Text Classification of Udemy Courses using Spark NLP & MLlib
 
 **Author**
+
 Jude Gbenimako
 NOVA Information Management School
 Master’s Degree Program in Data Science and Advanced Analytics (Business Analytics)
 June 2025
 
 **Project Overview**
+
 This project tackles the challenge of categorizing Udemy online course titles into distinct subject categories using Natural Language Processing (NLP) and machine learning (ML) techniques.
 It addresses the problem of course misclassification which negatively affects user experience and discoverability on educational platforms.
 
 **Objectives**
+
 To preprocess and clean Udemy course titles effectively.
 
 To extract meaningful textual features using NLP methods such as tokenization, stopword removal, bigrams, and TF-IDF.
@@ -27,6 +31,7 @@ To identify the best performing model for production use.
 To test model predictions on new course titles in both single and batch modes.
 
 **Dataset**
+
 Source: Publicly available Udemy dataset on Kaggle.
 
 Size: 98,104 rows with 13 columns including course ID, title, and category.
@@ -34,6 +39,7 @@ Size: 98,104 rows with 13 columns including course ID, title, and category.
 Categories: Initially 13 categories, later merged to 6 broader categories (Business, Tech, Education, Health & Lifestyle, Creative Arts, Marketing) to mitigate class imbalance and improve model performance.
 
 **Methodology**
+
 Data Cleaning: Lowercasing, punctuation removal, whitespace trimming.
 
 Feature Engineering: Tokenization, stopword removal, bigram creation, count vectorization, TF-IDF weighting.
@@ -47,6 +53,7 @@ Pipeline created using Spark NLP and Spark MLlib.
 Label encoding applied for numeric model labels and decoded post-prediction for interpretability.
 
 **Tools & Technologies**
+
 Apache Spark (DataFrames, MLlib, NLP)
 
 Databricks Lakehouse for scalable data storage and processing
