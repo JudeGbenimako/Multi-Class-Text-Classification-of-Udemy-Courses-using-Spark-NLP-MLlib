@@ -56,6 +56,7 @@ Python for orchestration and custom UDFs
 Visualization libraries: Seaborn, Matplotlib (inside Databricks); WordCloud generated externally using Google Colab due to Databricks limitations.
 
 **Results**
+
 Naive Bayes performed best with a weighted F1 score of ~0.805.
 
 Logistic Regression closely followed with a weighted F1 score of ~0.798.
@@ -67,11 +68,13 @@ Visualization of confusion matrices highlighted model strengths and areas of con
 WordCloud visualizations provided insights on category-specific keywords and common noise words.
 
 **Enhancements after Feedback**
+
 Dataset expanded from a smaller sample (3,678 rows) to the full 98,104 rows for better representativeness and reliability.
 
 WordCloud visualizations added to better communicate key textual features per category, generated externally to overcome platform constraints.
 
 **How to Run**
+
 Load the Udemy dataset into the Spark environment.
 
 Perform preprocessing and feature extraction as per the pipeline.
@@ -83,13 +86,10 @@ Use the decoding function to interpret numeric predictions.
 Test models with new course title inputs for classification.
 
 **Future Work**
+
 Further refinement of preprocessing steps to better handle noisy or ambiguous course titles.
 
 Explore additional feature extraction methods or deep learning models for improved accuracy.
 
 Automate deployment pipeline for real-time course classification on Udemy or similar platforms.
 
-Contact
-Jude Gbenimako
-Email: jgbenimako@gmail.com
-LinkedIn: https://www.linkedin.com/in/jude-gbenimako
