@@ -58,7 +58,7 @@ The reported results were obtained using an approximately **80/20 stratified tra
 
 ## Repository files
 
-- [Multi-Class Text Classification of Udemy Courses using Spark NLP & MLlib.ipynb](Multi-Class%20Text%20Classification%20of%20Udemy%20Courses%20using%20Spark%20NLP%20%26%20MLlib.ipynb) — Exploration, preprocessing, model comparisons, evaluation, and inference
+- [udemy_course_classification_pyspark.ipynb](udemy_course_classification_pyspark.ipynb) — Exploration, preprocessing, model comparisons, evaluation, and inference
 
 ## Running the notebook
 
